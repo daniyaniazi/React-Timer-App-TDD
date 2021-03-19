@@ -3,4 +3,14 @@
     border: var(--timer-border);
     height: var(--timer-height);
     width: var(--timer-width);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.time-display {
+    font-size: 6rem;
+    color: darkblue;
+    font-weight: bolder;
 }
